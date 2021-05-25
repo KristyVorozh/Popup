@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>LeasingCar</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header__content">
+            <div class="header__text">
+                Детская поликлиника №2
+            </div>
+            <button id="button">Click me</button>
+        </div>
+        </div>
+    </header>
+    <div class="modal" id="mymodal">
+        <div class="modal_content">
+            <span class="modal_close"><img src="img/close.svg" alt=""></span>
+            <div class="modal_header">
+                <p>Запись в клинику</p>
+                <div class="modal_contact">Также вы можете записаться по телефону +7 495 777 77 00</div>
+            </div>
+            <div class="modal_navigation">
+                <div class="logo"><img src="img/logo.png" alt=""></div>
+                <div class="modal_navigation__text">
+                    Детская поликлиника №2 
+                    <span>Пушкина, 234</span>
+                </div>
+                <form action="#" class="form__body" id="form">
+                    <div class="form_flex">
+                    <div class="form_item">
+                        
+                        <div class="yes">
+                        <input type="text" id="name" name="name" class="form_input " placeholder="Ваше имя">
+                    
+                    </div>
+                    </div>
+                    <div class="form_item">
+                        <div class="yes">
+                        <input type="text" id="phone" name="phone" class="form_input " placeholder="Ваш номер телефона">
+                        </div>
+                    </div>
+                </div>
+                </form>
+                <button class="modal_button" id="modal_button">Записаться</button>
+                <div class="checkbox_form">
+                    <input type="checkbox" id="checkbox" name="sogl"/>
+                    <label for="checkbox"><div class="label_text">Отправляя заявку вы соглашаетесь с пользовательским соглашением</div></label>
+                </div>
+            </div>
+            <div class="modal__fotter">
+                <p>После отправки с вами в ближайшее время свяжется специалист call-центра и уточнит все интересующие вас вопросы.</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
